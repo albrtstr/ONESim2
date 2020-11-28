@@ -1,378 +1,378 @@
-Node 
-c62	
+Node 	c62	
  Contact Time = 16990.57811679893
-Node 
-c69	
+
+Node 	c69	
  Contact Time = 17027.885295150096
-Node 
-c75	
+
+Node 	c75	
  Contact Time = 14813.524985226237
-Node 
-w111	
+
+Node 	w111	
  Contact Time = 14729.999185043269
-Node 
-c74	
+
+Node 	c74	
  Contact Time = 17504.10973091649
-Node 
-c66	
+
+Node 	c66	
  Contact Time = 19682.830380444593
-Node 
-w119	
+
+Node 	w119	
  Contact Time = 73006.75665054015
-Node 
-w116	
+
+Node 	w116	
  Contact Time = 12287.357182758093
-Node 
-p32	
+
+Node 	p32	
  Contact Time = 28287.066722935677
-Node 
-t122	
+
+Node 	t122	
  Contact Time = 175151.99758000163
-Node 
-c78	
+
+Node 	c78	
  Contact Time = 19179.346282731392
-Node 
-c48	
+
+Node 	c48	
  Contact Time = 16588.760268002065
-Node 
-c58	
+
+Node 	c58	
  Contact Time = 22360.602356373463
-Node 
-c65	
+
+Node 	c65	
  Contact Time = 17982.230128523508
-Node 
-p0	
+
+Node 	p0	
  Contact Time = 30795.141083621555
-Node 
-c70	
+
+Node 	c70	
  Contact Time = 18343.455159666577
-Node 
-p11	
+
+Node 	p11	
  Contact Time = 40262.167872142345
-Node 
-p30	
+
+Node 	p30	
  Contact Time = 28647.10342110784
-Node 
-w91	
+
+Node 	w91	
  Contact Time = 11139.405195378684
-Node 
-c44	
+
+Node 	c44	
  Contact Time = 18898.23054505473
-Node 
-p12	
+
+Node 	p12	
  Contact Time = 23313.697804950567
-Node 
-w102	
+
+Node 	w102	
  Contact Time = Infinity
-Node 
-w84	
+
+Node 	w84	
  Contact Time = 17523.170774416405
-Node 
-p7	
+
+Node 	p7	
  Contact Time = 13391.725624965093
-Node 
-c64	
+
+Node 	c64	
  Contact Time = 18270.35420633211
-Node 
-w92	
+
+Node 	w92	
  Contact Time = 15279.671051392233
-Node 
-c49	
+
+Node 	c49	
  Contact Time = 26908.777396024798
-Node 
-c43	
+
+Node 	c43	
  Contact Time = 13875.1292602195
-Node 
-w96	
+
+Node 	w96	
  Contact Time = 28966.692255147198
-Node 
-w81	
+
+Node 	w81	
  Contact Time = 27196.44821757238
-Node 
-c56	
+
+Node 	c56	
  Contact Time = 17419.038621425938
-Node 
-w115	
+
+Node 	w115	
  Contact Time = 22071.609995371044
-Node 
-w101	
+
+Node 	w101	
  Contact Time = 32880.39248375813
-Node 
-p8	
+
+Node 	p8	
  Contact Time = 12532.165928104143
-Node 
-p9	
+
+Node 	p9	
  Contact Time = 23820.4348604173
-Node 
-w104	
+
+Node 	w104	
  Contact Time = 31440.289554402476
-Node 
-p21	
+
+Node 	p21	
  Contact Time = 103348.2189178461
-Node 
-w103	
+
+Node 	w103	
  Contact Time = 26209.244797018753
-Node 
-p13	
+
+Node 	p13	
  Contact Time = 38889.077833062394
-Node 
-c63	
+
+Node 	c63	
  Contact Time = 17753.17530477178
-Node 
-w112	
+
+Node 	w112	
  Contact Time = 24862.652145334192
-Node 
-w95	
+
+Node 	w95	
  Contact Time = 33178.9471618826
-Node 
-c59	
+
+Node 	c59	
  Contact Time = 19621.396431004487
-Node 
-p26	
+
+Node 	p26	
  Contact Time = 19683.962419311338
-Node 
-c51	
+
+Node 	c51	
  Contact Time = 18399.864009398538
-Node 
-c40	
+
+Node 	c40	
  Contact Time = 16230.048107462242
-Node 
-c47	
+
+Node 	c47	
  Contact Time = 17136.35555833877
-Node 
-p19	
+
+Node 	p19	
  Contact Time = 25259.70251696957
-Node 
-w86	
+
+Node 	w86	
  Contact Time = 23300.288447457944
-Node 
-c54	
+
+Node 	c54	
  Contact Time = 15792.451616272363
-Node 
-c79	
+
+Node 	c79	
  Contact Time = 16287.744441367595
-Node 
-p23	
+
+Node 	p23	
  Contact Time = 26245.251703245656
-Node 
-t123	
+
+Node 	t123	
  Contact Time = 165921.07635837243
-Node 
-w93	
+
+Node 	w93	
  Contact Time = 17293.850227235725
-Node 
-p14	
+
+Node 	p14	
  Contact Time = 10908.236366438075
-Node 
-w80	
+
+Node 	w80	
  Contact Time = 14970.377634514378
-Node 
-p37	
+
+Node 	p37	
  Contact Time = 34637.27210854229
-Node 
-w108	
+
+Node 	w108	
  Contact Time = 16790.589598447394
-Node 
-p1	
+
+Node 	p1	
  Contact Time = 27103.111607970426
-Node 
-p28	
+
+Node 	p28	
  Contact Time = 15334.694296914786
-Node 
-w87	
+
+Node 	w87	
  Contact Time = 23036.266129108215
-Node 
-p39	
+
+Node 	p39	
  Contact Time = 22333.418693350657
-Node 
-p10	
+
+Node 	p10	
  Contact Time = 19618.942167565376
-Node 
-w106	
+
+Node 	w106	
  Contact Time = 11762.757691776274
-Node 
-c53	
+
+Node 	c53	
  Contact Time = 18337.0571556163
-Node 
-w98	
+
+Node 	w98	
  Contact Time = 31432.970451656252
-Node 
-p24	
+
+Node 	p24	
  Contact Time = 20521.07433915161
-Node 
-c77	
+
+Node 	c77	
  Contact Time = 21184.874111964626
-Node 
-p22	
+
+Node 	p22	
  Contact Time = 21393.49668817866
-Node 
-p29	
+
+Node 	p29	
  Contact Time = 14261.432170015034
-Node 
-w85	
+
+Node 	w85	
  Contact Time = 19278.31892569611
-Node 
-p25	
+
+Node 	p25	
  Contact Time = 19422.841893646553
-Node 
-p6	
+
+Node 	p6	
  Contact Time = 18376.85234098776
-Node 
-w99	
+
+Node 	w99	
  Contact Time = 13412.61365846922
-Node 
-p4	
+
+Node 	p4	
  Contact Time = 31919.922190991725
-Node 
-w117	
+
+Node 	w117	
  Contact Time = 13771.596705254087
-Node 
-c45	
+
+Node 	c45	
  Contact Time = 17903.253877973555
-Node 
-c57	
+
+Node 	c57	
  Contact Time = 20041.54404224638
-Node 
-c71	
+
+Node 	c71	
  Contact Time = 17881.595975799177
-Node 
-c55	
+
+Node 	c55	
  Contact Time = 16091.78932729387
-Node 
-w83	
+
+Node 	w83	
  Contact Time = 31490.040424098945
-Node 
-w100	
+
+Node 	w100	
  Contact Time = 18690.76918182289
-Node 
-p18	
+
+Node 	p18	
  Contact Time = 20316.72798650068
-Node 
-w90	
+
+Node 	w90	
  Contact Time = 24251.30293374636
-Node 
-c41	
+
+Node 	c41	
  Contact Time = 20330.448889904368
-Node 
-t120	
+
+Node 	t120	
  Contact Time = 5273798.125678898
-Node 
-p31	
+
+Node 	p31	
  Contact Time = 10942.678540926705
-Node 
-c46	
+
+Node 	c46	
  Contact Time = 19762.868806429986
-Node 
-c52	
+
+Node 	c52	
  Contact Time = 22377.726062328205
-Node 
-p17	
+
+Node 	p17	
  Contact Time = 7338.038536195212
-Node 
-c50	
+
+Node 	c50	
  Contact Time = 19232.146563478193
-Node 
-p33	
+
+Node 	p33	
  Contact Time = 15781.88300775306
-Node 
-w118	
+
+Node 	w118	
  Contact Time = 15787.724397381595
-Node 
-w82	
+
+Node 	w82	
  Contact Time = 13965.618292265335
-Node 
-c42	
+
+Node 	c42	
  Contact Time = Infinity
-Node 
-c68	
+
+Node 	c68	
  Contact Time = 16554.234454561632
-Node 
-p20	
+
+Node 	p20	
  Contact Time = 26446.150222991328
-Node 
-w97	
+
+Node 	w97	
  Contact Time = 15578.166900309136
-Node 
-p15	
+
+Node 	p15	
  Contact Time = 15536.158356461048
-Node 
-w107	
+
+Node 	w107	
  Contact Time = 20474.09289232694
-Node 
-c73	
+
+Node 	c73	
  Contact Time = 17188.67543117994
-Node 
-t125	
+
+Node 	t125	
  Contact Time = 96503.74539985893
-Node 
-p16	
+
+Node 	p16	
  Contact Time = 17133.13912773209
-Node 
-p5	
+
+Node 	p5	
  Contact Time = 23150.78072048192
-Node 
-p36	
+
+Node 	p36	
  Contact Time = 29622.219311738205
-Node 
-w105	
+
+Node 	w105	
  Contact Time = 22494.454453700157
-Node 
-p38	
+
+Node 	p38	
  Contact Time = 29654.729875881512
-Node 
-c76	
+
+Node 	c76	
  Contact Time = 19205.00033792809
-Node 
-c60	
+
+Node 	c60	
  Contact Time = 21214.297618353048
-Node 
-w110	
+
+Node 	w110	
  Contact Time = 13849.748448439048
-Node 
-t121	
+
+Node 	t121	
  Contact Time = 146319.762066366
-Node 
-p3	
+
+Node 	p3	
  Contact Time = 18306.64362504301
-Node 
-w113	
+
+Node 	w113	
  Contact Time = 20268.252969679026
-Node 
-w109	
+
+Node 	w109	
  Contact Time = 29322.432779469604
-Node 
-w114	
+
+Node 	w114	
  Contact Time = 17187.31191634373
-Node 
-c67	
+
+Node 	c67	
  Contact Time = 16742.39548214266
-Node 
-t124	
+
+Node 	t124	
  Contact Time = 70920.85717062464
-Node 
-w88	
+
+Node 	w88	
  Contact Time = 16854.909012422304
-Node 
-p35	
+
+Node 	p35	
  Contact Time = 18314.282931054957
-Node 
-w89	
+
+Node 	w89	
  Contact Time = 24067.705777423344
-Node 
-c72	
+
+Node 	c72	
  Contact Time = 11989.244453656107
-Node 
-p27	
+
+Node 	p27	
  Contact Time = 31117.94272573683
-Node 
-p34	
+
+Node 	p34	
  Contact Time = 34281.384890463065
-Node 
-p2	
+
+Node 	p2	
  Contact Time = 11169.869457119816
-Node 
-w94	
+
+Node 	w94	
  Contact Time = 15595.955197784184
-Node 
-c61	
+
+Node 	c61	
  Contact Time = 22220.89769303127
+

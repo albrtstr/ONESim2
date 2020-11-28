@@ -112,10 +112,6 @@ public class DistributedBubbleRap_connHistory implements RoutingDecisionEngine {
         return m.getTo() != thisHost;
     }
 
-//    public boolean shouldSendMessageToHost(Message m, DTNHost otherHost) {
-//
-//    }
-
     @Override
     public boolean shouldDeleteSentMessage(Message m, DTNHost otherHost) {
         return false;

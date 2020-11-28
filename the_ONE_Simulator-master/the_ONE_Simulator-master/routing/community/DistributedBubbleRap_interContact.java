@@ -19,28 +19,27 @@ import routing.RoutingDecisionEngine;
  *
  * @author ASUS
  */
-public class DistributedBubbleRap_interContact implements RoutingDecisionEngine, help_average{
+public class DistributedBubbleRap_interContact implements RoutingDecisionEngine, help_average {
 
     protected Map<DTNHost, List<Duration>> connHistory;
     protected Map<DTNHost, Double> startTimeStamp;
-    
+
     double total = 0;
     double jumlah;
-    
-    
-    public DistributedBubbleRap_interContact(Settings s){
+
+    public DistributedBubbleRap_interContact(Settings s) {
         startTimeStamp = new HashMap<DTNHost, Double>();
         connHistory = new HashMap<DTNHost, List<Duration>>();
     }
-    
-    public DistributedBubbleRap_interContact(DistributedBubbleRap_interContact proto){
+
+    public DistributedBubbleRap_interContact(DistributedBubbleRap_interContact proto) {
         startTimeStamp = new HashMap<DTNHost, Double>();
         connHistory = new HashMap<DTNHost, List<Duration>>();
     }
-    
+
     @Override
     public void connectionUp(DTNHost thisHost, DTNHost peer) {
-        
+
     }
 
     @Override
@@ -53,16 +52,16 @@ public class DistributedBubbleRap_interContact implements RoutingDecisionEngine,
             time = startTimeStamp.get(peer);
         }
         double endtime = SimClock.getIntTime();
-        
+
         List<Duration> history;
-        
+
         if (!connHistory.containsKey(peer)) {
             history = new LinkedList<Duration>();
             connHistory.put(peer, history);
         } else {
             history = connHistory.get(peer);
         }
-        
+
         if (endtime - time > 0) {
             history.add(new Duration(time, endtime));
         }
@@ -76,13 +75,13 @@ public class DistributedBubbleRap_interContact implements RoutingDecisionEngine,
         this.startTimeStamp.put(peer, SimClock.getTime());
         de.startTimeStamp.put(myHost, SimClock.getTime());
     }
-    
-    private DistributedBubbleRap_interContact getOtherDecisionEngine(DTNHost h){
+
+    private DistributedBubbleRap_interContact getOtherDecisionEngine(DTNHost h) {
         MessageRouter otherRouter = h.getRouter();
         assert otherRouter instanceof DecisionEngineRouter : "This Router only works "
                 + "with other routers of same type";
-        
-        return (DistributedBubbleRap_interContact) ((DecisionEngineRouter)otherRouter).getDecisionEngine();
+
+        return (DistributedBubbleRap_interContact) ((DecisionEngineRouter) otherRouter).getDecisionEngine();
     }
 
     @Override
@@ -99,8 +98,8 @@ public class DistributedBubbleRap_interContact implements RoutingDecisionEngine,
     public boolean shouldSaveReceivedMessage(Message m, DTNHost thisHost) {
         return m.getTo() != thisHost;
     }
-    
-    private double getConnHis(DTNHost host){
+
+    private double getConnHis(DTNHost host) {
         List<Duration> contact = new LinkedList();
         if (connHistory.containsKey(host)) {
             contact = connHistory.get(host);
@@ -120,7 +119,7 @@ public class DistributedBubbleRap_interContact implements RoutingDecisionEngine,
         }
         DTNHost other = m.getTo();
         DistributedBubbleRap_interContact de = getOtherDecisionEngine(otherHost);
-        
+
         double peer = de.getConnHis(other);
         double me = this.getConnHis(other);
         if (me < peer) {
@@ -142,7 +141,7 @@ public class DistributedBubbleRap_interContact implements RoutingDecisionEngine,
 
     @Override
     public void update(DTNHost thisHost) {
-        
+
     }
 
     @Override
@@ -155,16 +154,15 @@ public class DistributedBubbleRap_interContact implements RoutingDecisionEngine,
         double Total = 0;
         double average = 0;
         double jumlah = 0;
-        for (Map.Entry<DTNHost, List<Duration>> entry: connHistory.entrySet()) {
+        for (Map.Entry<DTNHost, List<Duration>> entry : connHistory.entrySet()) {
             DTNHost key = entry.getKey();
             Total = Total + getConnHis(key);
         }
-        
+
         jumlah = connHistory.size();
         average = Total / jumlah;
-        
+
         return average;
     }
-    
-    
+
 }
